@@ -1,0 +1,21 @@
+/* шрифт */
+@font-face {
+	src: url('fonts/Inter-Regular.ttf');
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	src: url('fonts/Inter-Black.ttf');
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 900;
+}
+
+@font-face {
+	src: url('fonts/Inter-Bold.ttf');
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: bold;
+}

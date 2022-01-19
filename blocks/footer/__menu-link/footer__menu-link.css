@@ -1,0 +1,10 @@
+.footer__menu-link{
+	display: flex;
+	justify-content: flex-start;
+}
+
+@media all and (max-width: 767px){
+	.footer__menu-link{
+		flex-direction: column;
+	}
+}

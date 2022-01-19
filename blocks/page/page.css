@@ -1,0 +1,39 @@
+.page{
+	max-width: 1280px;
+	margin: 0 auto;
+	
+	background-color: #2A2C2F;
+	color: #fff;
+	justify-items: center;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+
+	/* сглаживание */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	/* подгонка размера */
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%; 
+}
+
+@media screen and (max-width: 1279px){
+	.page{
+		max-width: 1024px;
+	}
+}
+
+@media all and (max-width: 1023px){
+	.page{
+		max-width: 768px;
+	}
+}
+
+@media all and (max-width: 767px){
+	.page{
+		max-width: 320px;
+	}
+}
